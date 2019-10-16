@@ -1870,7 +1870,7 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-					#header nav ul li a {
+					#header nav ul li a:hover {
 						display: block;
 						color: inherit;
 						text-decoration: none;
@@ -1878,8 +1878,9 @@ input, select, textarea {
 						line-height: 3em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
+						background-color: white;
 					}
-
+					
 		@media screen and (max-width: 736px) {
 
 			#header {
