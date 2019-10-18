@@ -1887,7 +1887,7 @@ input, select, textarea {
 					#header a:hover {
 						text-decoration: underline; 
 						transform: scale(1.5);
-						text-decoration: underline;
+						color:white;
 					}
 					
 		@media screen and (max-width: 736px) {
