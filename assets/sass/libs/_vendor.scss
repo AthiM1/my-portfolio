@@ -1,8 +1,8 @@
-// vendor.scss v1.0 | @ajlkn | MIT licensed */
+
 
 // Vars.
 
-	/// Vendor prefixes.
+	
 	/// @var {list}
 	$vendor-prefixes: (
 		'-moz-',
@@ -11,9 +11,6 @@
 		''
 	);
 
-	/// Properties that should be vendorized.
-	/// Data via caniuse.com, github.com/postcss/autoprefixer, and developer.mozilla.org
-	/// @var {list}
 	$vendor-properties: (
 
 		// Animation.
@@ -361,16 +358,5 @@
 			    }
 			}
 
-		// Expand just the value?
-			@elseif $expandValue {
-			    @each $vendor in $vendor-prefixes {
-			        #{$property}: #{str-replace-all($value, '-prefix-', $vendor)};
-			    }
-			}
-
-		// Neither? Treat them as a normal declaration.
-			@else {
-		        #{$property}: #{$value};
-			}
-
+		
 	}
