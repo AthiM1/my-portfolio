@@ -2323,6 +2323,6 @@ color: white;
 		#text-color{
 			font-family: 'Courier New', monospace;
 			color: white;
-					}img {
-						border-radius: 80%;
+					} #my-img {
+						border-radius: 20%;
 					  }
