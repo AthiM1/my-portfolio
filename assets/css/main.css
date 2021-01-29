@@ -2322,6 +2322,9 @@ input, select, textarea {
 			}
 
 		}
-		h6 .h10{
+		h6{
 color: white;
 		}
+		.h10{
+			color: white;
+					}
