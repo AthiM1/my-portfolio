@@ -2237,6 +2237,9 @@ input, select, textarea {
 .fa-download{
 	color: turquoise;
 }
+.fa-server{
+	color: rgb(177, 177, 177);
+}
 .col-md-4{
 	padding: 5px;
 	margin:10px;
