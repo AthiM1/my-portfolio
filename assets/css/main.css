@@ -2212,7 +2212,7 @@ input, select, textarea {
 
 	.fa-file-excel{
 		color: green;
-		size: 3px;
+	
 	}
 	.fa-html5{
 		color: red;
@@ -2228,7 +2228,9 @@ input, select, textarea {
 .fa-react{
    color: turquoise;
 }
-
+.fa-node{
+	color: rgb(241, 48, 14);
+}
 .fa-microsoft{
 	color: rgb(46, 193, 238);
 }
