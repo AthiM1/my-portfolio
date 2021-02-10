@@ -2275,6 +2275,24 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+	.fa-file-excel{
+		color: green;
+		size: 200px;
+	}
+	.fa-html5{
+		color: red;
+	}
+.fa-js{
+	color: rgb(245, 245, 189);
+}
+
+
+.fa-python{
+	color: rgb(170, 170, 9);
+}
+.fa-react{
+   color: turquoise;
+}
 /* Contact */
 
 	#contact {
