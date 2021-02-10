@@ -2240,6 +2240,9 @@ input, select, textarea {
 .fa-server{
 	color: rgb(177, 177, 177);
 }
+.fa-chart-area{
+	color: rgb(129, 8, 129);
+}
 .col-md-4{
 	padding: 5px;
 	margin:10px;
