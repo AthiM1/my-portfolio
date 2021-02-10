@@ -2243,6 +2243,9 @@ input, select, textarea {
 .fa-chart-area{
 	color: rgb(129, 8, 129);
 }
+.fa-robot{
+	color: turquoise;
+}
 .col-md-4{
 	padding: 5px;
 	margin:10px;
