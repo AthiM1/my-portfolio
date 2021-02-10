@@ -2230,14 +2230,14 @@ input, select, textarea {
 }
 
 .fa-microsoft{
-	color: rgb(238, 139, 46);
+	color: rgb(46, 193, 238);
 }
 .fa-download{
 	color: turquoise;
 }
 
 .btn{
-	width: 500px;
+	width: 50%;
 }
 /* Contact */
 
