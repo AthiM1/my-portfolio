@@ -2212,7 +2212,7 @@ input, select, textarea {
 
 	.fa-file-excel{
 		color: green;
-		size: 200px;
+		size: 3px;
 	}
 	.fa-html5{
 		color: red;
@@ -2235,9 +2235,17 @@ input, select, textarea {
 .fa-download{
 	color: turquoise;
 }
-
+.col-md-4{
+	padding: 5px;
+	margin:10px;
+}
 .btn{
-	width: 100%;
+	width: 95%;
+	text-align: center;
+	padding: 5px;
+	margin:10px;
+	
+     font-size: 20px;
 }
 /* Contact */
 
