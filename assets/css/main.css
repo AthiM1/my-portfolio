@@ -2283,15 +2283,22 @@ input, select, textarea {
 		color: red;
 	}
 .fa-js{
-	color: rgb(245, 245, 189);
+	color: rgb(223, 223, 157);
 }
 
 
 .fa-python{
-	color: rgb(170, 170, 9);
+	color: rgb(189, 127, 14);
 }
 .fa-react{
    color: turquoise;
+}
+
+.fa-microsoft{
+	color: turquoise;
+}
+.btn{
+	width: 500px;
 }
 /* Contact */
 

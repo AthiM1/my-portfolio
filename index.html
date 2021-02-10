@@ -172,7 +172,7 @@
 									<h6>React weatherApp</h6>
 								<a href="https://myweatherupdate.herokuapp.com/" target="_blank"><img src="weather.png" title="Airchitecture II"  style="width: 200px; height: 200px;"alt="my photo" /></a>
 								<form>
-										<input class="MyButton" type="button" value="Code" onclick="window.location.href='https://github.com/AthiM1/weather-api' " target="_blank" />
+										<input class="MyButton" type="button" value="Code" onclick="window.location.href='https://github.com/AthiM1/My-weather-App' " target="_blank" />
 								</form>
 								<h6 id="text-color">This is a react weather app that uses api to fetch urrent weather of location</h6>
 							</article>
@@ -202,21 +202,32 @@
 					
 					<div id="contact">
 						<h1>Send an email</h1>
-						<form action="https://formspree.io/f/maylkzyd" method="post" enctype="text/plain">
-						<label>
-						Your email:
-						<input type="email" name="email">
-		  				</label>
-		  				<label>
-						Your message:
-							<textarea name="message"></textarea>
-		 				 </label>
-		
-						  <!-- your other form fields go here -->
-		
-						  <input type="submit" value="Submit" style="width: 500px" class="form-control form-group"/>
-							</form>
+						<form id="contact-form" method="post" action="https://formspree.io/f/maylkzyd" target="_blank">
+						<div class="messages"></div>
+						<div class="controls">
+						  <div class="row">
+							<div class="col-md-4">
+							  <input type="text" name="name" placeholder="Firstname " required="required" class="form-control">
+							</div>
+							<div class="col-md-4">
+							  <input type="text" name="surname" placeholder="Lastname " required="required" class="form-control">
+							</div>
+							<div class="col-md-4">
+							  <input type="text" name="email" placeholder="Email " required="required" class="form-control">
+							</div>
+							<div class="col-md-6">
+							  <textarea name="message" placeholder="Write your message here!" rows="4" required="required" class="form-control"></textarea>
+							</div>
+							<div class="col-md-6 text-center">
+							  <button type="submit" class="btn btn-outline-primary" target="_blank">Send message</button>
+							</div>
+						  </div>
 						</div>
+					  </form>
+		  
+						</div>
+
+
 					  <div class="grid">
 						  <div class="col">
 						<i class="far fa-envelope p-3"></i><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">mbondwana.a.s@gmail.com</a>
