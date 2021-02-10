@@ -2230,8 +2230,12 @@ input, select, textarea {
 }
 
 .fa-microsoft{
+	color: rgb(238, 139, 46);
+}
+.fa-download{
 	color: turquoise;
 }
+
 .btn{
 	width: 500px;
 }
