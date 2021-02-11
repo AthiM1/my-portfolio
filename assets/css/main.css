@@ -1766,7 +1766,7 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(241, 186, 123, 0.95);
+		background: #167bff;
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -2117,7 +2117,7 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: rgba(241, 186, 123, 0.95);
+		background: #167bff;
 		color: rgba(2, 35, 68, 0.5);
 		overflow: hidden;
 	}
